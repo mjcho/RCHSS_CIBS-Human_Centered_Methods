@@ -445,9 +445,7 @@ All of these challenge [conventional social and behavioral research methods]{.ne
   - Networked science [(Morris et al., 2025, Trend in Biotechnology)]{.citation}.
 - 
 
-
 ---
-
 
 # From Digital Trace Data to Communication Styles
 
@@ -512,15 +510,15 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 
 ---
 
-# A Roadmap from the Literature & Our Contribution
+## A Roadmap from the Literature & Our Contribution
 
-## Three-Step Approach (Pouwels et al., 2024)
+### Three-Step Approach (Pouwels et al., 2024)
 
 1. **Collect digital trace data** (DTD, e.g., via APIs, tracking).  
 2. Perform **automated content analysis** (text and visuals).  
 3. Conduct **linkage analysis** to study effects on outcomes.
 
-## Our Contribution
+### Our Contribution
 
 - An **end-to-end framework** that operationalizes this approach for **video**.  
 - Goes beyond isolated text or image analysis.  
@@ -528,9 +526,9 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 
 ---
 
-# Our Framework: An Overview
+## Our Framework: An Overview
 
-## From Raw Videos to Communication Styles
+### From Raw Videos to Communication Styles
 
 :::: {.columns}
 ::: {.column}
@@ -545,15 +543,15 @@ All of these challenge [conventional social and behavioral research methods]{.ne
   3. **Style Identification & Linking** – Feature sets → interpretable styles for linkage analysis.
 :::
 ::: {.column}
-[Figure placeholder: Overview of three-stage framework]
+![](imgs/multi_framework.png){width="100%"}
 :::
 ::::
 
 ---
 
-# Stage 1: From Raw Video to Analysis-Ready Streams
+## Stage 1: From Raw Video to Analysis-Ready Streams
 
-## Preprocessing and Filtering
+### Preprocessing and Filtering
 
 :::: {.columns}
 ::: {.column}
@@ -571,7 +569,7 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 - **Result**: A validated set of synchronized **video, audio, and text** data — only the **target communicator**.
 :::
 ::: {.column}
-[Figure placeholder: Stage 1 pipeline diagram]
+![](imgs/preprocess.png){width="100%"}
 :::
 ::::
 
@@ -596,15 +594,15 @@ All of these challenge [conventional social and behavioral research methods]{.ne
   - Topic modeling (BERTopic) → substantive themes.
 :::
 ::: {.column}
-[Figure placeholder: Example feature time series per modality]
+![](imgs/feature_extraction.png){width="100%"}
 :::
 ::::
 
 ---
 
-# Stage 3: Identifying Communication Styles
+## Stage 3: Identifying Communication Styles
 
-## Hybrid Quantitative–Qualitative Method
+### Hybrid Quantitative–Qualitative Method
 
 :::: {.columns}
 ::: {.column}
@@ -625,17 +623,17 @@ All of these challenge [conventional social and behavioral research methods]{.ne
   - "Negative Depressed"
 :::
 ::: {.column}
-[Figure placeholder: Cluster map with style labels]
+![](imgs/style_identification.png){width="100%"}
 :::
 ::::
 
 ---
 
-# Stage 3: Tri-Modality Communication Styles
+## Stage 3: Tri-Modality Communication Styles
 
-## Styles from Visual, Audio, and Text Combined
+### Styles from Visual, Audio, and Text Combined
 
-:::: {.columns}
+<!-- :::: {.columns}
 ::: {.column}
 - **Tri-modality cluster styles** capture interplay between:  
   - Visual behavior,  
@@ -667,13 +665,15 @@ Example cluster types:
 ::: {.column}
 [Figure placeholder: Table of tri-modal styles]
 :::
-::::
+:::: -->
+
+![](imgs/tri_modal_styles.png){width="100%"}
 
 ---
 
-# Validating the Styles
+## Validating the Styles
 
-## Distribution Across Parties
+### Distribution Across Parties
 
 :::: {.columns}
 ::: {.column}
@@ -694,7 +694,7 @@ Example cluster types:
   - Republicans: "Concerned Articulate" and "Negative Depressed".
 :::
 ::: {.column}
-[Figure placeholder: Style distribution by party]
+![](imgs/party_styles.png){width="100%"}
 :::
 ::::
 
@@ -715,15 +715,15 @@ Example cluster types:
 - Implication: Style is not universally good or bad; its impact is **conditional on identity and context**.
 :::
 ::: {.column}
-[Figure placeholder: Engagement by style × party]
+![](imgs/style_charts.png){width="100%"}
 :::
 ::::
 
 ---
 
-# Contributions & Implications
+## Contributions & Implications
 
-## What This Framework Enables
+### What This Framework Enables
 
 - Direct, practical response to the **CMM special issue** call for computational social media effects research.  
 - **Advances step 1**: Pipeline for creating valid, analysis-ready DTD streams from raw video.  
@@ -736,17 +736,16 @@ Example cluster types:
 
 ---
 
-# Thank You
+## Thank You
 
-## Questions?
+### Questions?
 
 :::: {.columns}
 ::: {.column}
-Mu-Jung ’MJ’ Cho | 卓牧融  
-Center for Survey Research, RCHSS, Academia Sinica  
-Email: mjcho@as.edu.tw
+#### Mu-Jung ’MJ’ Cho | 卓牧融 
+[mjcho@as.edu.tw]{.neon-red}
 :::
 ::: {.column}
-[Figure placeholder: Closing visual]
+![](imgs/closing_visual.jpg){width="30%"}
 :::
 ::::
