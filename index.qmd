@@ -27,8 +27,8 @@ date: last-modified
 
 # Screenomics 3.0: A Framework for Visual Digital Trace Research
 
-@ 中央研究院 / 人文社會科學研究中心 / 制度與行為研究專題中心  
-@ Center for Institution and Behavior Studies, RCHSS, Academia Sinica  
+@ 中央研究院 |> 人文社會科學研究中心 |> 制度與行為研究專題中心  
+@ Center for Institution and Behavior Studies |> RCHSS |> Academia Sinica  
 2025.11.21
 
 ---
@@ -44,7 +44,7 @@ date: last-modified
 - Interactions are [rapid and bursty]{.neon-green} across platforms.  
 - [Fragmentation]{.neon-green} of content categories.  
 - [Time domain]{.neon-green} issues: exposure over short vs. long intervals.  
-- [Idiosyncrasy across individuals]{.neon-green}.  
+- [Idiosyncrasy]{.neon-green} across individuals.  
 
 All of these challenge [conventional social and behavioral research methods]{.neon-cyan}.
 
@@ -346,6 +346,7 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 :::
 ::: {.column}
 ![](imgs/human_label.png){width="100%"}
+![](imgs/food_irr.png){width="100%"}
 :::
 ::::
 
