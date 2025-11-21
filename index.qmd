@@ -1,6 +1,6 @@
 ---
-title: "Screenomics 3.0: 用AI與數位足跡探討數位時代的心理、人際關係與媒介內容"
-subtitle: "... and some thoughts on multimodal research"
+title: "探索以人為本的全方位實證方法："
+subtitle: "多模態研究的幾個案例"
 author:
   - name: "卓牧融 | Mu-Jung 'MJ' Cho"
     orcid: '0000-0001-5500-6336'
@@ -12,7 +12,7 @@ format:
     slide-number: c
     incremental: true
     slide-level: 2
-    # smaller: true
+    smaller: true
     scrollable: true
 execute:
   echo: true
@@ -27,13 +27,13 @@ date: last-modified
 
 # Screenomics 3.0: A Framework for Visual Digital Trace Research
 
-## Visual Digital Trace Research with Smartphone Screens
-
-@ 台灣大學·博雅教學館 Room301  
-2025.11.20
+@ 中央研究院 / 人文社會科學研究中心 / 制度與行為研究專題中心  
+@ Center for Institution and Behavior Studies, RCHSS, Academia Sinica  
+2025.11.21
 
 ---
 
+<!-- ## Visual Digital Trace Research with Smartphone Screens -->
 ## Why Study Real-World Digital Interactions?
 ![](vids/SarahClip40s_Slow.mp4){.r-stretch}
 
@@ -50,9 +50,9 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 
 ---
 
-# Challenges in Capturing Digital Trace Data
+## Challenges in Capturing Digital Trace Data {background-image="imgs/nilam.jpg" background-opacity="0.2"}
 
-## Screens as Digital Trace Data (DTD) {background-image="imgs/nilam.jpg" background-opacity="0.2"}
+### Screens as Digital Trace Data (DTD) 
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -582,15 +582,15 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 - **Result**: A validated set of synchronized **video, audio, and text** data — only the **target communicator**.
 :::
 ::: {.column}
-![](imgs/preprocess.png){width="100%"}
+![](imgs/preprocessing.png){width="100%"}
 :::
 ::::
 
 ---
 
-# Stage 2: Quantifying Sight, Sound, and Speech
+## Stage 2: Quantifying Sight, Sound, and Speech
 
-## Multimodal Feature Extraction
+### Multimodal Feature Extraction
 
 :::: {.columns}
 ::: {.column}
@@ -713,9 +713,9 @@ Example cluster types:
 
 ---
 
-# Style Effectiveness and Party Differences
+## Style Effectiveness and Party Differences
 
-## How Style Effectiveness Varies by Party
+### How Style Effectiveness Varies by Party
 
 :::: {.columns}
 ::: {.column}
@@ -762,7 +762,120 @@ Example cluster types:
 
 ---
 
-## Why All These Matters?
+# 網路輿情的人智互動：即時輔助社會議題理解
+
+---
+
+## 研究團隊與背景
+
+:::: {.columns}
+::: {.column}
+- 人社中心跨領域團隊：卓牧融、張卿卿、蕭遠、黃瀚萱、張永儒  
+- 目標：提升社會議題理解、促進公共理性對話  
+- 基礎：台灣規模最大的網路輿情資料庫
+:::
+::: {.column}
+![](imgs/as_scene.png){width="100%"}
+:::
+::::
+
+---
+
+## 社會爭議的根源：理解不足
+
+### 認知偏差 + 新媒介生態 = 理解鴻溝
+
+:::: {.columns}
+::: {.column}
+- 認知協調、選擇性暴露  
+- 演算法濾泡與迴聲室效應持續存在  
+- 新媒介型態造成資訊碎片化  
+- 認知權威分散與不穩定 → 難以形成公共共識
+:::
+::: {.column}
+![](imgs/debate.png){width="100%"}
+:::
+::::
+
+---
+
+## 以人與 AI 的互動提升議題理解
+
+### 多模態輿情資料 × RAG × Multi-agent System
+
+:::: {.columns6040}
+::: {.column}
+- 台灣最完整的網路輿情資料庫  
+- 檢索增強生成（RAG）提升資訊可得性  
+- 多代理人系統（multi-agent）協作產生深度理解  
+- 利用互動的框架化來引導認知過程
+:::
+::: {.column}
+![](imgs/interface.png){width="100%"}
+:::
+::::
+
+---
+
+## 以人為本的多模態實證研究
+
+### 全方位方法：從社會科學到人機互動
+
+:::: {.columns6040}
+::: {.column}
+- 多模態資料在社會科學中的應用迅速成長  
+- 跨模態分析（文本、影像、社群動態）  
+- 結合人智互動以提升議題理解深度
+:::
+::: {.column}
+![](imgs/multimodal_research.png){width="100%"}
+:::
+::::
+
+---
+
+## Multi-agent 系統架構
+
+### RAG × 向量資料庫 × 多代理協同
+
+:::: {.columns}
+::: {.column}
+- 多階段流程：Drafting → Critiquing → Refining  
+- 向量資料庫（multilingual-e5 + ChromaDB）  
+- RAG Q&A Agent、Summary Agent（Gemini）  
+- 支援逐段精煉、立場抽取、影片摘要
+:::
+::: {.column}
+![](imgs/multi_agent.png){width="100%"}
+:::
+::::
+
+---
+
+## 人智互動引導：觀點光譜與 QA
+
+![](vids/rag.m4v){.r-stretch}
+
+---
+
+## 人智互動引導：觀點光譜與 QA
+
+### 幫助使用者理解多元觀點，降低二元對立
+
+:::: {.columns6040}
+::: {.column}
+- 系統協助呈現多元立場與論點光譜  
+- 引導式 QA 幫助理解議題的關鍵爭點  
+- 促進更成熟、更細膩的公共討論能力
+:::
+::: {.column}
+![](imgs/qa.png){width="100%"}
+:::
+::::  
+
+--- 
+
+## Why Do All These Matters?
 
 ### A tale of scientific evolution
 
@@ -788,3 +901,4 @@ Example cluster types:
 ![](imgs/closing_visual.jpg){width="30%"}
 :::
 ::::
+
