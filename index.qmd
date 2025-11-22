@@ -7,7 +7,7 @@ author:
     email: 'mjcho@as.edu.tw'
     affiliations: 'RCHSS, Academia Sinica'
 title-slide-attributes:
-    data-background-image: https://media1.tenor.com/m/Kh_lQJoeJkUAAAAd/star-aesthetic.gif # /imgs/synthwave.gif # miami_nights1984-sentimental.jpeg 
+    data-background-image: https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBnenU0Y2I2NmY5azB4eDM1cml4bGo0MmgxMjN4eWYxazc5dTZscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sJvz8Qnfly3BOuotGx/giphy.gif # /imgs/synthwave.gif # miami_nights1984-sentimental.jpeg 
     # data-background-size: 120%, auto
     # data-background-position: bottom
     data-background-opacity: "0.2"
