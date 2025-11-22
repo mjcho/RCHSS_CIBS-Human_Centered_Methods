@@ -6,6 +6,11 @@ author:
     orcid: '0000-0001-5500-6336'
     email: 'mjcho@as.edu.tw'
     affiliations: 'RCHSS, Academia Sinica'
+title-slide-attributes:
+    data-background-image: /imgs/synthwave.gif # miami_nights1984-sentimental.jpeg 
+    # data-background-size: 120%, auto
+    # data-background-position: bottom
+    data-background-opacity: "0.2"
 format:
   revealjs:
     theme: [default, synthwave84-reveal-1.scss]
