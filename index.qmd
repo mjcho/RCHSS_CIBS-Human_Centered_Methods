@@ -1,6 +1,6 @@
 ---
-title: "探索以人為本的全方位實證方法："
-subtitle: "多模態研究的幾個案例"
+title: "Exploring Holistic Human-Centered Empirical Methods"
+subtitle: "Case Studies in Multimodal Research"
 author:
   - name: "卓牧融 | Mu-Jung 'MJ' Cho"
     orcid: '0000-0001-5500-6336'
@@ -32,8 +32,8 @@ date: last-modified
 
 # Screenomics 3.0: A Framework for Visual Digital Trace Research
 
-@ 中央研究院 |> 人文社會科學研究中心 |> 制度與行為研究專題中心  
-@ Center for Institution and Behavior Studies |> RCHSS |> Academia Sinica  
+@ 中央研究院 |> TIGP  
+@ TIGP |> Academia Sinica  
 2025.11.21
 
 ---
